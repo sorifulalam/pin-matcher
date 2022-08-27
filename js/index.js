@@ -38,15 +38,15 @@ function digitDlet(){
 }
 
 function clickNumber(){
-    let getPin = document.getElementById('displayCatch')
-   let curentPin=getPin.value;
+    const getPin = document.getElementById('displayCatch')
+    const curentPin=getPin.value;
 
-    let displayNumber =document.getElementById('displayNumber')
-   let typedNumber = displayNumber.value;
+    const displayNumberr =document.getElementById('displayNumber')
+    const typedNumber = displayNumberr.value;
 
-    let notSuccesMessage =document.getElementById('notSuccesMessage')
+    const notSuccesMessage =document.getElementById('notSuccesMessage')
 
-    let successMessage = document.getElementById('successMessage')
+    const successMessage = document.getElementById('successMessage')
 
     if(typedNumber ===curentPin){
         successMessage.style.display='block'
